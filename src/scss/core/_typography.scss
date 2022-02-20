@@ -1,0 +1,10 @@
+body {
+  font-size: $font_size;
+}
+
+.header {
+  &__menu-items {
+    font-family: $barlow_ff;
+    font-weight: $semi_bold;
+  }
+}

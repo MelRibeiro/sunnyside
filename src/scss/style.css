@@ -1,0 +1,74 @@
+/* COLORS */
+/* primary */
+/* neutral */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input, button {
+  border: none;
+}
+
+body {
+  font-size: 1.125rem;
+}
+
+.header__menu-items {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/assets/images/mobile/image-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__nav {
+  padding: 2rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+.header__menu-items {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 1rem;
+}
+
+.header__menu-items:hover {
+  color: #000;
+  background: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,AAAA,MAAM,CAAC;EACxB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,OAAO;EACf,cAAc,EAAE,SAAS;CAC1B",
+    "sources": [
+        "hover.scss"
+    ],
+    "names": [],
+    "file": "hover.css"
+}
